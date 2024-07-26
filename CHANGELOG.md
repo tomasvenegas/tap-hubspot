@@ -1,8 +1,5 @@
 # Changelog
 
-## 3.0.0
-  * Upgrade Owners API endpoint [#256](https://github.com/singer-io/tap-hubspot/pull/256)
-
 ## 2.13.2
   * Fix out-of-index error [#253](https://github.com/singer-io/tap-hubspot/pull/253)
 

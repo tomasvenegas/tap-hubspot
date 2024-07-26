@@ -131,7 +131,7 @@ class HubspotBaseTest(BaseCase):
                 self.OBEYS_START_DATE: True
             },
             "owners": {
-                self.PRIMARY_KEYS: {"id"},
+                self.PRIMARY_KEYS: {"ownerId"},
                 self.REPLICATION_METHOD: self.INCREMENTAL,
                 self.REPLICATION_KEYS: {"updatedAt"},
                 self.OBEYS_START_DATE: True  # TODO is this a BUG?
